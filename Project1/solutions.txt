@@ -1,0 +1,8 @@
+
+2b)
+1) Using more trees does not change anything
+2) Using a greater depth derceases RMSE
+
+2c)
+	1) In neural network, adding nodes decreases MSE but stagnates around iteration 80 - 100
+	2) Adding layers has a significant impact on the MSE => reduces MSE with increasing layers

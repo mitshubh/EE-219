@@ -9,7 +9,6 @@ from sklearn.datasets import fetch_20newsgroups
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as py
-from pprint import pprint
 
 categories=['comp.graphics', 'comp.os.ms-windows.misc', 'comp.sys.ibm.pc.hardware', 'comp.sys.mac.hardware', 'rec.autos', 'rec.motorcycles', 'rec.sport.baseball', 'rec.sport.hockey']
 #graphics_all = fetch_20newsgroups(subset='all', categories=categories, shuffle=True, random_state=42)

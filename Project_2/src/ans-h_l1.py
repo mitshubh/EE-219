@@ -97,15 +97,15 @@ fit_model = logisticReg_classifier.fit(X_train, Y_train)
 Y_predicted = fit_model.predict(X_test)
 
 # Metrics for model
-print "Confusion matrix \n"
-print confusion_matrix(Y_test, Y_predicted) 
-print "\n"
+print ("Confusion matrix \n")
+print (confusion_matrix(Y_test, Y_predicted))
+print ("\n")
 
-print "Recall and Precision score \n\n"
-print classification_report(Y_test, Y_predicted)
-print "\n"
+print ("Recall and Precision score \n\n")
+print (classification_report(Y_test, Y_predicted))
+print ("\n")
 
-print "\nAccuracy : ", accuracy_score(Y_test, Y_predicted)
+print ("\nAccuracy : ", accuracy_score(Y_test, Y_predicted))
 
 #ROC curve
 probas_ = fit_model.predict_proba(X_test)                                    

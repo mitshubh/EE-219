@@ -11,6 +11,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 from nltk import word_tokenize
 import string
+import numpy as np
 from sklearn.decomposition import TruncatedSVD
 from sklearn.metrics import confusion_matrix, classification_report, roc_curve
 #from sklearn.metrics import auc
@@ -98,15 +99,15 @@ fit_model = logisticReg_classifier.fit(X_train, Y_train)
 Y_predicted = fit_model.predict(X_test)
 
 # Metrics for model
-print "Confusion matrix \n"
-print confusion_matrix(Y_test, Y_predicted) 
-print "\n"
+print ("Confusion matrix \n")
+print (confusion_matrix(Y_test, Y_predicted))
+print ("\n")
 
-print "Recall and Precision score \n\n"
-print classification_report(Y_test, Y_predicted)
-print "\n"
+print ("Recall and Precision score \n\n")
+print (classification_report(Y_test, Y_predicted))
+print ("\n")
 
-print "\nAccuracy : ", accuracy_score(Y_test, Y_predicted)
+print ("\nAccuracy : ", accuracy_score(Y_test, Y_predicted))
 
 #ROC curve
 probas_ = fit_model.predict_proba(X_test)                                    
@@ -121,3 +122,27 @@ plt.ylabel('True Positive Rate')
 plt.title('Logistic Regression(L2 penalty) ROC Curve')
 plt.legend(loc="lower right")
 plt.show()
+
+
+for i, C in enumerate((100, 1, 0.01)):
+    clf_l1_LR = LogisticRegression(C=C, penalty='l1', tol=0.01)
+    clf_l2_LR = LogisticRegression(C=C, penalty='l2', tol=0.01)
+    clf_l1_LR.fit(X_train, Y_train)
+    clf_l2_LR.fit(X_train, Y_train)    
+    Y_predicted_l1 = clf_l1_LR.predict(X_test)
+    Y_predicted_l2 = clf_l2_LR.predict(X_test)
+    print ("\nFor coefficient: ", C)
+    print ("\nAccuracy l1: ", accuracy_score(Y_test, Y_predicted_l1))
+    print ("\nAccuracy l2: ", accuracy_score(Y_test, Y_predicted_l2))
+    
+    coef_l1_LR = clf_l1_LR.coef_.ravel()
+    coef_l2_LR = clf_l2_LR.coef_.ravel()
+
+    # coef_l1_LR contains zeros due to the
+    # L1 sparsity inducing norm
+
+    sparsity_l1_LR = np.mean(coef_l1_LR == 0) * 100
+    sparsity_l2_LR = np.mean(coef_l2_LR == 0) * 100
+
+    print("Sparsity with L1 penalty: %.2f%%" % sparsity_l1_LR)
+    print("Sparsity with L2 penalty: %.2f%%" % sparsity_l2_LR)

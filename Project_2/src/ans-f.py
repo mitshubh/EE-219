@@ -94,7 +94,7 @@ for i in range(len(Y_test)):
 gamma = [0.001,0.01,0.1,10, 100, 1000]
 
 for gam in gamma:
-    print "Value of gamma is : ", gam
+    print ("Value of gamma is : ", gam)
     #SVM classification
     svc_classifier = SVC(kernel = 'linear', probability=True, gamma=gam)
     # Five cross validation
@@ -102,13 +102,13 @@ for gam in gamma:
         fit_model = svc_classifier.fit(X_train, Y_train)
         Y_predicted = fit_model.predict(X_test)
     # Metrics for model
-    print "Confusion matrix \n"
-    print confusion_matrix(Y_test, Y_predicted) 
-    print "\n"
-    print "Recall and Precision score \n\n"
-    print classification_report(Y_test, Y_predicted)
-    print "\n"
-    print "\nAccuracy : ", accuracy_score(Y_test, Y_predicted)
+    print ("Confusion matrix \n")
+    print (confusion_matrix(Y_test, Y_predicted))
+    print ("\n")
+    print ("Recall and Precision score \n\n")
+    print (classification_report(Y_test, Y_predicted))
+    print ("\n")
+    print ("\nAccuracy : ", accuracy_score(Y_test, Y_predicted))
     
     #ROC curve
     probas_ = fit_model.predict_proba(X_test)                                    
@@ -124,4 +124,4 @@ for gam in gamma:
     plt.title('SVM ROC Curve')
     plt.legend(loc="lower right")
     plt.show()
-    print "\n--------------------------------------------------------\n"
+    print ("\n--------------------------------------------------------\n")

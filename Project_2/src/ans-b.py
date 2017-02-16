@@ -42,3 +42,4 @@ train_counts = cVectorizer.fit_transform(stemList(train.data))
 
 tfidf_transformer = text.TfidfTransformer()
 train_tfidf = tfidf_transformer.fit_transform(train_counts)
+print(train_tfidf.shape)

@@ -1,4 +1,4 @@
-function [A,Y]=custom_wnmfrule(X,k,W,option)
+function [A,Y]=regularized_wnmfrule(X,k,W,lambda,option)
 % Weighted NMF based on multiple update rules for missing values: X=AY, s.t. A,Y>=0.
 
 % X: non-negative matrix. A missing value is represented by 0 and not NaN
@@ -20,9 +20,9 @@ else
 end
 
 % Weight
-% W=isnan(X);
-% X(W)=0;
-% W=~W;
+W=isnan(X);
+X(W)=0;
+W=~W;
 
 % iter: number of iterations
 [r,c]=size(X); % c is # of samples, r is # of features
@@ -36,7 +36,9 @@ XfitPrevious=Inf;
 for i=1:option.iter
     switch option.distance
         case 'ls'
-            A=A.*(((W.*X)*Y')./((W.*(A*Y))*Y'));
+            % Regularized Parameter update 
+            A=A.*(((W.*X)*Y')./(lambda*A+(W.*(A*Y))*Y'));
+            %A=A.*(((W.*X)*Y')./((W.*(A*Y))*Y'));
 %             A(A<eps)=0;
                 A=max(A,eps);
             Y=Y.*((A'*(W.*X))./(A'*(W.*(A*Y))));
@@ -51,7 +53,7 @@ for i=1:option.iter
             error('Please select the correct distance: option.distance=''ls''; or option.distance=''kl'';');
     end
     if mod(i,10)==0 || i==option.iter
-        if option.dis
+        if (1==2)
             disp(['Iterating >>>>>> ', num2str(i),'th']);
         end
         XfitThis=A*Y;
@@ -60,7 +62,7 @@ for i=1:option.iter
         curRes=norm(W.*(X-XfitThis),'fro');
         if option.tof>=fitRes || option.residual>=curRes || i==option.iter
             s=sprintf('Mutiple update rules based NMF successes! \n # of iterations is %0.0d. \n The final residual is %0.4d.',i,curRes);
-            if option.dis
+            if (1==2)
                 disp(s);
             end
             numIter=i;

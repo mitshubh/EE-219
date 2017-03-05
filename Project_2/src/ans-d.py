@@ -7,11 +7,10 @@ Created on Mon Feb  6 15:04:51 2017
 
 from sklearn.datasets import fetch_20newsgroups
 from sklearn.feature_extraction import text
-from nltk.stem.snowball import SnowballStemmer, EnglishStemmer
+from nltk.stem.snowball import SnowballStemmer
 from nltk import word_tokenize
 import string
 from sklearn.decomposition import TruncatedSVD
-from sklearn.pipeline import Pipeline
 
 def stemList(stringList):
     stemmer = SnowballStemmer("english")

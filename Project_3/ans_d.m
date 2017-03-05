@@ -41,7 +41,7 @@ for l= 3 % 1:3
         trainData=isnan(W);
         W(trainData)=0; % Unknown ratings have zero weights
         trainData=~trainData; % Using 1 for known ratings and 0 for unknown ratings
-        % Using a customized wnmfrule
+        % Using a customized wnmfrule for proper weights
         [A,Y]=custom_wnmfrule(trainData,k{l},W,option);
         R_pred = A*Y;
         for j= 1:size(testInput,1);

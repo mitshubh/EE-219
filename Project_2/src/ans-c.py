@@ -6,7 +6,7 @@ Created on Mon Feb  6 11:51:48 2017
 """
 from sklearn.datasets import fetch_20newsgroups
 from sklearn.feature_extraction import text
-from nltk.stem.snowball import SnowballStemmer, EnglishStemmer
+from nltk.stem.snowball import SnowballStemmer
 from nltk import word_tokenize
 import string
 

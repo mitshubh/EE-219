@@ -71,32 +71,41 @@ for comp in compArr:
 
 #Since we're interested in capturing at least 25-35% variance, we pick number of components as 100
 dims = 100;
-result = 2;
-hom_result = 0;
-conf = [] ;
+SVM_result = 2;
+SVM_hom_result = 0;
+SVM_adj_rand_result =0;
+SVM_mutual_score_result = 0;
+SVM_conf_result = [] ;
 for comp in np.arange(2,dims):
     svd_model = TruncatedSVD(n_components=comp, random_state=42)    # SVD model, k=comp
     lsi = svd_model.fit_transform(total_tfidf)  #Apply LSI
     kmeans = KMeans(n_clusters=2).fit(lsi)
     conf_mat = confusion_matrix(total_labels, kmeans.labels_)  #Confusion Matrix
-    score = cluster.homogeneity_score(total_labels, kmeans.labels_)
-    #print("For dimension: ", comp)    
-    #print("Confusion Matrix -- \n", conf_mat)
+    hom_score = cluster.homogeneity_score(total_labels, kmeans.labels_)
+    adj_rand = cluster.adjusted_rand_score(total_labels, kmeans.labels_)
+    mutual_score = cluster.adjusted_mutual_info_score(total_labels, kmeans.labels_)
     
-    if(score > hom_result):
-        hom_result = score
-        result = comp
-        conf = conf_mat
+    print("For dimension: ", comp)    
+    print("Confusion Matrix -- \n", conf_mat)
+    
+    if(hom_score > SVM_hom_result):
+        SVM_hom_result = hom_score
+        SVM_result = comp
+        SVM_conf_result = conf_mat
+        SVM_adj_rand_result = adj_rand
+        SVM_mutual_score_result = mutual_score
     
     #Results
-    #print("homogeneity score -- ", cluster.homogeneity_score(total_labels, kmeans.labels_)) # homogeneity score
-    #print("completeness score -- ", cluster.completeness_score(total_labels, kmeans.labels_)) # completeness score
-    #print("adjusted rand score -- ", cluster.adjusted_rand_score(total_labels, kmeans.labels_)) # adjusted rand score 
-    #print("adusted mutual info score -- ", cluster.adjusted_mutual_info_score(total_labels, kmeans.labels_)) # adusted mutual info score
-#hom_result = 0.80222654947895511
-#resut = 65
-#conf = 3.791000000000000000e+03	1.120000000000000000e+02
-#1.300000000000000000e+02	3.849000000000000000e+03
+    print("homogeneity score -- ", cluster.homogeneity_score(total_labels, kmeans.labels_)) # homogeneity score
+    print("completeness score -- ", cluster.completeness_score(total_labels, kmeans.labels_)) # completeness score
+    print("adjusted rand score -- ", cluster.adjusted_rand_score(total_labels, kmeans.labels_)) # adjusted rand score 
+    print("adusted mutual info score -- ", cluster.adjusted_mutual_info_score(total_labels, kmeans.labels_)) # adusted mutual info score
+
+print(SVM_result)
+print(SVM_hom_result)
+print(SVM_conf_result)
+print(SVM_adj_rand_result)
+print(SVM_mutual_score_result)
 
     
 ## Analyzing NMF ------------------------------------

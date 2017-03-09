@@ -14,7 +14,6 @@ from nltk.stem.snowball import SnowballStemmer
 from nltk import word_tokenize
 import numpy as np
 import string
-import scipy
 import matplotlib.pyplot as plt
 from sklearn.preprocessing import normalize
 import pandas as pd
@@ -43,52 +42,53 @@ total_tfidf = tfidf_transformer.fit_transform(total_counts)
 
 total_labels = total.target//4 # Integer Division
 
-#print("printing dimensions for tfidf")
-#print(total_tfidf.shape)
-#print("Performing Analysis for SVD\n")
-#dims = 20;
-#
-#for comp in np.arange(2,dims):
-#    svd_model = TruncatedSVD(n_components=comp, random_state=42)    # SVD model, k=comp
-#    lsi_1 = svd_model.fit_transform(total_tfidf)  #Apply LSI
-#    lsi = normalize(lsi_1,norm='l2',axis=1,copy=True)
-#    kmeans = KMeans(n_clusters=2).fit(lsi)
-#    conf_mat = confusion_matrix(total_labels, kmeans.labels_)  #Confusion Matrix  
-#    print("For dimension: ", comp)    
-#    print("Confusion Matrix -- \n", conf_mat)    
-#    #Results
-#    print("homogeneity score -- ", cluster.homogeneity_score(total_labels, kmeans.labels_)) # homogeneity score
-#    print("completeness score -- ", cluster.completeness_score(total_labels, kmeans.labels_)) # completeness score
-#    print("adjusted rand score -- ", cluster.adjusted_rand_score(total_labels, kmeans.labels_)) # adjusted rand score 
-#    print("adusted mutual info score -- ", cluster.adjusted_mutual_info_score(total_labels, kmeans.labels_)) # adusted mutual info score
+print("printing dimensions for tfidf")
+print(total_tfidf.shape)
+
+
+print("Performing Analysis for SVD\n")
+dims = 20;
+
+for comp in np.arange(2,dims):
+    svd_model = TruncatedSVD(n_components=comp, random_state=42)    # SVD model, k=comp
+    lsi_1 = svd_model.fit_transform(total_tfidf)  #Apply LSI
+    lsi = normalize(lsi_1,norm='l2',axis=1,copy=True)
+    kmeans = KMeans(n_clusters=2).fit(lsi)
+    conf_mat = confusion_matrix(total_labels, kmeans.labels_)  #Confusion Matrix  
+    print("For dimension: ", comp)    
+    print("Confusion Matrix -- \n", conf_mat)    
+    #Results
+    print("homogeneity score -- ", cluster.homogeneity_score(total_labels, kmeans.labels_)) # homogeneity score
+    print("completeness score -- ", cluster.completeness_score(total_labels, kmeans.labels_)) # completeness score
+    print("adjusted rand score -- ", cluster.adjusted_rand_score(total_labels, kmeans.labels_)) # adjusted rand score 
+    print("adusted mutual info score -- ", cluster.adjusted_mutual_info_score(total_labels, kmeans.labels_)) # adusted mutual info score
 
 
     
-# Analyzing NMF ------------------------------------
-#print("Performing Analysis for NMF\n")
-#dims = 20;
-#for comp in np.arange(2,dims):
-#    nmf_model = NMF(n_components=comp, init='random', random_state=0)    # NMF model, k=comp
-#    lsi_1 = nmf_model.fit_transform(total_tfidf)  #Apply LSI
-#    lsi = normalize(lsi_1,norm='l2',axis=1,copy=True)
-#    kmeans = KMeans(n_clusters=2).fit(lsi)
-#    conf_mat = confusion_matrix(total_labels, kmeans.labels_);  #Confusion Matrix
-#    print("For dimension: ", comp)    
-#    print("Confusion Matrix -- \n", conf_mat)
-#    #Results
-#    print("homogeneity score -- ", cluster.homogeneity_score(total_labels, kmeans.labels_)) # homogeneity score
-#    print("completeness score -- ", cluster.completeness_score(total_labels, kmeans.labels_)) # completeness score
-#    print("adjusted rand score -- ", cluster.adjusted_rand_score(total_labels, kmeans.labels_)) # adjusted rand score 
-#    print("adusted mutual info score -- ", cluster.adjusted_mutual_info_score(total_labels, kmeans.labels_)) # adusted mutual info score
+#Analyzing NMF ------------------------------------
+print("Performing Analysis for NMF\n")
+dims = 20;
+for comp in np.arange(2,dims):
+    nmf_model = NMF(n_components=comp, init='random', random_state=0)    # NMF model, k=comp
+    lsi_1 = nmf_model.fit_transform(total_tfidf)  #Apply LSI
+    lsi = normalize(lsi_1,norm='l2',axis=1,copy=True)
+    kmeans = KMeans(n_clusters=2).fit(lsi)
+    conf_mat = confusion_matrix(total_labels, kmeans.labels_);  #Confusion Matrix
+    print("For dimension: ", comp)    
+    print("Confusion Matrix -- \n", conf_mat)
+    #Results
+    print("homogeneity score -- ", cluster.homogeneity_score(total_labels, kmeans.labels_)) # homogeneity score
+    print("completeness score -- ", cluster.completeness_score(total_labels, kmeans.labels_)) # completeness score
+    print("adjusted rand score -- ", cluster.adjusted_rand_score(total_labels, kmeans.labels_)) # adjusted rand score 
+    print("adusted mutual info score -- ", cluster.adjusted_mutual_info_score(total_labels, kmeans.labels_)) # adusted mutual info score
 
 
 nmf = NMF(n_components=2, init='random', random_state=0) 
-twenty_tfidf_matrix_r= nmf.fit_transform(total_tfidf)
-#twenty_tfidf_matrix_r = normalize(twenty_tfidf_matrix_r1,norm='l2',axis=1,copy=True)
+tfidf_matrix_r= nmf.fit_transform(total_tfidf)
 km = KMeans(n_clusters=2, init='k-means++', n_init=10, max_iter=300, precompute_distances='auto', verbose=0,
-            copy_x=True, n_jobs=1).fit(twenty_tfidf_matrix_r)
+            copy_x=True, n_jobs=1).fit(tfidf_matrix_r)
             
-x,y = twenty_tfidf_matrix_r[:,0], twenty_tfidf_matrix_r[:,1]
+x,y = tfidf_matrix_r[:,0], tfidf_matrix_r[:,1]
 x1,y1 = x, y
 df = pd.DataFrame(dict(x=x1, y=y1, label=1))
 groups = df.groupby('label')
@@ -96,7 +96,7 @@ groups = df.groupby('label')
 # Plot
 fig, ax = plt.subplots()
 for name, group in groups:
-    ax.plot(group.x, group.y, marker='o', linestyle='', ms=12, label=name)
+    ax.plot(group.x, group.y, marker='.', linestyle='', ms=8, label=name)
 ax.legend()
 
 
@@ -107,7 +107,18 @@ groups = df.groupby('label')
 # Plot
 fig, ax = plt.subplots()
 for name, group in groups:
-    ax.plot(group.x, group.y, marker='o', linestyle='', ms=12, label=name)
-ax.legend()
+    ax.plot(group.x, group.y, marker='.', linestyle='', ms=8, label=name)
+    ax.legend()
+
+x1,y1 = x, np.log(y)
+df = pd.DataFrame(dict(x=x1, y=y1, label=1))
+groups = df.groupby('label')
+
+# Plot
+fig, ax = plt.subplots()
+for name, group in groups:
+    ax.plot(group.x, group.y, marker='.', linestyle='', ms=8, label=name)
+    ax.legend()
+
 
 

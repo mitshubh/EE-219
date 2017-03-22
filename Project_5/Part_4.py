@@ -130,14 +130,14 @@ hashtag_list = ["#gohawks", "#gopatriots", "#nfl", "#patriots", "#sb49", "#super
 for i in range(len(train_files)):
     modHF, period1, period2, period3 = getPeriodHourlyFeatures(i)
     predictors, labels = getLabelsMatrix(modHF)
-    average_cv_pred_error = cross_validation(predictors,labels)
-    print "The avg prediction error for full cross-validation of", hashtag_list[i], " is ", average_cv_pred_error
+    avgErr = cross_validation(predictors,labels)
+    print "The avg prediction error for full cross-validation of", hashtag_list[i], " is ", avgErr
     predictors, labels = getLabelsMatrix(period1)
-    average_cv_pred_error = cross_validation(predictors,labels)
-    print "The avg prediction error using cross-validation for Period 1 of", hashtag_list[i], " is ", average_cv_pred_error
+    avgErr = cross_validation(predictors,labels)
+    print "The avg prediction error using cross-validation for Period 1 of", hashtag_list[i], " is ", avgErr
     predictors, labels = getLabelsMatrix(period2)
-    average_cv_pred_error = cross_validation(predictors,labels)
-    print "The avg prediction error using cross-validation for Period 2 of", hashtag_list[i], " is ", average_cv_pred_error
+    avgErr = cross_validation(predictors,labels)
+    print "The avg prediction error using cross-validation for Period 2 of", hashtag_list[i], " is ", avgErr
     predictors, labels = getLabelsMatrix(period3)
-    average_cv_pred_error = cross_validation(predictors,labels)
-    print "The avg prediction error using cross-validation for Period 3 of", hashtag_list[i], " is ", average_cv_pred_error
+    avgErr = cross_validation(predictors,labels)
+    print "The avg prediction error using cross-validation for Period 3 of", hashtag_list[i], " is ", avgErr

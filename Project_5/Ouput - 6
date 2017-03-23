@@ -1,41 +1,38 @@
-Average CV-Accuracy of Multinomial Naive Bayes: 0.727072152654
+Average CV-Accuracy of Multinomial Naive Bayes: 0.737000596303
              precision    recall  f1-score   support
 
-          0       0.69      0.83      0.75      3357
-          1       0.78      0.63      0.70      3351
+          0       0.70      0.85      0.77      3357
+          1       0.81      0.63      0.71      3351
 
-avg / total       0.74      0.73      0.72      6708
+avg / total       0.75      0.74      0.74      6708
 
 Confusion Matrix:
-[[2771  586]
- [1243 2108]]
-/Users/amehrotra/anaconda2/lib/python2.7/site-packages/matplotlib/axes/_axes.py:519: UserWarning: No labelled objects found. Use label='...' kwarg on individual plots.
-  warnings.warn("No labelled objects found. "
+[[2862  495]
+ [1251 2100]]
 
-￼
-Average CV-Accuracy of Logistic Regression: 0.812999403697
+
+Average CV-Accuracy of Logistic Regression: 0.809242695289
              precision    recall  f1-score   support
 
-          0       0.76      0.94      0.84      3357
-          1       0.92      0.70      0.80      3351
+          0       0.75      0.94      0.84      3357
+          1       0.92      0.69      0.79      3351
 
-avg / total       0.84      0.82      0.82      6708
+avg / total       0.84      0.81      0.81      6708
 
 Confusion Matrix:
-[[3162  195]
- [1011 2340]]
+[[3161  196]
+ [1052 2299]]
 
-￼
-Average CV-Accuracy of Linear SVM: 0.81389385808
+
+Average CV-Accuracy of Linear SVM: 0.811687537269
              precision    recall  f1-score   support
 
-          0       0.76      0.95      0.84      3357
-          1       0.93      0.69      0.80      3351
+          0       0.75      0.95      0.84      3357
+          1       0.93      0.68      0.79      3351
 
-avg / total       0.84      0.82      0.82      6708
+avg / total       0.84      0.82      0.81      6708
 
 Confusion Matrix:
-[[3182  175]
- [1023 2328]]
+[[3179  178]
+ [1059 2292]]
 
-￼

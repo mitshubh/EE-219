@@ -14,6 +14,7 @@ from sklearn.decomposition import TruncatedSVD
 from sklearn.feature_extraction import text
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 from sklearn.svm import LinearSVC, SVC
+from nltk import word_tokenize
 import string
 
 
@@ -27,20 +28,21 @@ def filterByLoc(dt):
             | (dt.location.str.contains('Massachusetts'))]
     return result
     
+#def tokenizeData(data):
 def tokenizeData(data):
+    stemmer2 = SnowballStemmer("english") # for removing stem words
+    stop_words = text.ENGLISH_STOP_WORDS  # omit stop words
 
-    stemmer = SnowballStemmer("english")
-    stopWords = text.ENGLISH_STOP_WORDS
-    tData = data
-    regex = re.compile('[%s]' % re.escape(string.punctuation))
-    tData = regex.sub(' ', tData)
-    tData = "".join(b for b in tData if ord(b) < 128)
-    tData = tData.lower()
-    words = tData.split()
-    nStpWrds = [w for w in words if not w in stopWords]
-    stemmedResult = [stemmer.stem(item) for item in nStpWrds]
+    temp = data
+    temp = re.sub("[,.-:/()?{}*$#&]"," ",temp)  # remove all symbols
+    temp = "".join([ch for ch in temp if ch not in string.punctuation])  # remove all punctuation
+    temp = "".join(ch for ch in temp if ord(ch) < 128)  # remove all non-ascii characters
+    temp = temp.lower() # convert to lowercase
+    words = temp.split()
+    no_stop_words = [w for w in words if not w in stop_words]  # stemming of words
+    stemmedData = [stemmer2.stem(plural) for plural in no_stop_words]
 
-    return stemmedResult
+    return stemmedData
 
 def mapLoc(data):
     targ = []
@@ -114,7 +116,7 @@ print(confusion_matrix(yTest, predicted_bayes))
 
 fpr, tpr, thresholds = roc_curve(yTest, predicted_bayes)
 plt.figure()
-plt.plot(fpr, tpr, color='darkorange', lw=2)
+plt.plot(fpr, tpr, color='blue', lw=2)
 plt.xlabel('False Positive Rate')
 plt.ylabel('True Positive Rate')
 plt.title('Multinomial Naive Bayes: Receiver Operating Characteristic Curve')
@@ -138,7 +140,7 @@ print(confusion_matrix(yTest, predictedLr))
 
 fpr, tpr, thresholds = roc_curve(yTest, predictedLr)
 plt.figure()
-plt.plot(fpr, tpr, color='darkorange', lw=2)
+plt.plot(fpr, tpr, color='blue', lw=2)
 plt.xlabel('False Positive Rate')
 plt.ylabel('True Positive Rate')
 plt.title('Logistic Regression: Receiver Operating Characteristic Curve')
@@ -163,7 +165,7 @@ print(confusion_matrix(yTest, predicted_svm))
 
 fpr, tpr, thresholds = roc_curve(yTest, predicted_svm)
 plt.figure()
-plt.plot(fpr, tpr, color='darkorange', lw=2)
+plt.plot(fpr, tpr, color='blue', lw=2)
 plt.xlabel('False Positive Rate')
 plt.ylabel('True Positive Rate')
 plt.title('Linear SVM: Receiver Operating Characteristic Curve')

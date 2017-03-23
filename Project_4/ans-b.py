@@ -37,6 +37,7 @@ tfidf_transformer = text.TfidfTransformer()
 #print(train_tfidf.shape)
 total_tfidf = tfidf_transformer.fit_transform(total_counts)
 total_labels = total.target//4; # Integer Division
+print(total_tfidf.shape)
 
 # Checking if some permutation on rows makes the matrix almost diagonal
 # perm = np.arange(total_counts.shape[0])

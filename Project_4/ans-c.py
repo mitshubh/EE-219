@@ -14,6 +14,10 @@ from nltk.stem.snowball import SnowballStemmer
 from nltk import word_tokenize
 import numpy as np
 import string
+import matplotlib.pyplot as plt
+from sklearn.preprocessing import normalize
+import pandas as pd
+
 
 def stemList(stringList):
     stemmer = SnowballStemmer("english")
@@ -31,58 +35,43 @@ test = fetch_20newsgroups(subset='test', categories=categories, shuffle=True, ra
 total = fetch_20newsgroups(subset='all', categories=categories, shuffle=True, random_state=42)
 
 cVectorizer = text.CountVectorizer(min_df=1, stop_words = text.ENGLISH_STOP_WORDS)
-#train_counts = cVectorizer.fit_transform(stemList(train.data))
 total_counts = cVectorizer.fit_transform(stemList(total.data))
 
 tfidf_transformer = text.TfidfTransformer()
 total_tfidf = tfidf_transformer.fit_transform(total_counts)
-#Normalize tfidf results ? using TfIdfVectorizer
 
-total_labels = total.target//4; # Integer Division
+total_labels = total.target//4 # Integer Division
 
-# Checking if some permutation on rows makes the matrix almost diagonal
-# perm = np.arange(total_counts.shape[0])
-# permutated_tfidf = total_tfidf[perm,:]
-# permutated_labels = total_labels[perm]
+print("printing dimensions for tfidf")
+print(total_tfidf.shape)
+
 
 print("Performing Analysis for SVD\n")
-# Singular Value Decomposition -----------------------
-# Explained Variance Sums -- 50 - 10%, 100 - 15%, 500 - 39%, 1000 - 55%
-compArr = [2,10,50,100,500]
-for comp in compArr:
-    svd_model = TruncatedSVD(n_components=comp)
-    lsi = svd_model.fit(total_tfidf.T)
-    explained_variance = svd_model.explained_variance_ratio_.sum()
-    print("\nExplained variance of the SVD step with {} components: {}%".format(comp, int(explained_variance * 100)))
+dims = 20;
 
-# Since we're interested in capturing at least 25-35% variance, we pick number of components as 100
-dims = 100;
 for comp in np.arange(2,dims):
     svd_model = TruncatedSVD(n_components=comp, random_state=42)    # SVD model, k=comp
-    lsi = svd_model.fit_transform(total_tfidf)  #Apply LSI
+    lsi_1 = svd_model.fit_transform(total_tfidf)  #Apply LSI
+    lsi = normalize(lsi_1,norm='l2',axis=1,copy=True)
     kmeans = KMeans(n_clusters=2).fit(lsi)
-    conf_mat = confusion_matrix(total_labels, kmeans.labels_);  #Confusion Matrix
+    conf_mat = confusion_matrix(total_labels, kmeans.labels_)  #Confusion Matrix  
     print("For dimension: ", comp)    
-    print("Confusion Matrix -- \n", conf_mat)
+    print("Confusion Matrix -- \n", conf_mat)    
     #Results
     print("homogeneity score -- ", cluster.homogeneity_score(total_labels, kmeans.labels_)) # homogeneity score
     print("completeness score -- ", cluster.completeness_score(total_labels, kmeans.labels_)) # completeness score
     print("adjusted rand score -- ", cluster.adjusted_rand_score(total_labels, kmeans.labels_)) # adjusted rand score 
     print("adusted mutual info score -- ", cluster.adjusted_mutual_info_score(total_labels, kmeans.labels_)) # adusted mutual info score
+
+
     
-
-# Analyzing NMF ------------------------------------
-compArr = [2,10,50,100,500]
-for comp in compArr:
-    nmf_model = NMF(n_components=comp, init='random', random_state=0)    # NMF model, k=comp
-    lsi = nmf_model.fit(total_tfidf.T)
-    print("\nReconstrction error with {} components: {}%".format(comp, nmf_model.reconstruction_err_))
-
-
-dims = 100;
+#Analyzing NMF ------------------------------------
+print("Performing Analysis for NMF\n")
+dims = 20;
 for comp in np.arange(2,dims):
-    nmf_model = NMF(n_components=2, init='random', random_state=0)    # NMF model, k=comp
-    lsi = svd_model.fit_transform(total_tfidf)  #Apply LSI
+    nmf_model = NMF(n_components=comp, init='random', random_state=0)    # NMF model, k=comp
+    lsi_1 = nmf_model.fit_transform(total_tfidf)  #Apply LSI
+    lsi = normalize(lsi_1,norm='l2',axis=1,copy=True)
     kmeans = KMeans(n_clusters=2).fit(lsi)
     conf_mat = confusion_matrix(total_labels, kmeans.labels_);  #Confusion Matrix
     print("For dimension: ", comp)    
@@ -92,3 +81,44 @@ for comp in np.arange(2,dims):
     print("completeness score -- ", cluster.completeness_score(total_labels, kmeans.labels_)) # completeness score
     print("adjusted rand score -- ", cluster.adjusted_rand_score(total_labels, kmeans.labels_)) # adjusted rand score 
     print("adusted mutual info score -- ", cluster.adjusted_mutual_info_score(total_labels, kmeans.labels_)) # adusted mutual info score
+
+
+nmf = NMF(n_components=2, init='random', random_state=0) 
+tfidf_matrix_r= nmf.fit_transform(total_tfidf)
+km = KMeans(n_clusters=2, init='k-means++', n_init=10, max_iter=300, precompute_distances='auto', verbose=0,
+            copy_x=True, n_jobs=1).fit(tfidf_matrix_r)
+            
+x,y = tfidf_matrix_r[:,0], tfidf_matrix_r[:,1]
+x1,y1 = x, y
+df = pd.DataFrame(dict(x=x1, y=y1, label=1))
+groups = df.groupby('label')
+
+# Plot
+fig, ax = plt.subplots()
+for name, group in groups:
+    ax.plot(group.x, group.y, marker='.', linestyle='', ms=8, label=name)
+ax.legend()
+
+
+x1,y1 = np.log(x), y
+df = pd.DataFrame(dict(x=x1, y=y1, label=1))
+groups = df.groupby('label')
+
+# Plot
+fig, ax = plt.subplots()
+for name, group in groups:
+    ax.plot(group.x, group.y, marker='.', linestyle='', ms=8, label=name)
+    ax.legend()
+
+x1,y1 = x, np.log(y)
+df = pd.DataFrame(dict(x=x1, y=y1, label=1))
+groups = df.groupby('label')
+
+# Plot
+fig, ax = plt.subplots()
+for name, group in groups:
+    ax.plot(group.x, group.y, marker='.', linestyle='', ms=8, label=name)
+    ax.legend()
+
+
+

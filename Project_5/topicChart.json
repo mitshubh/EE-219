@@ -1,0 +1,4821 @@
+{
+  "axes": [
+    {
+      "scale": "x",
+      "title": "Time in hours",
+      "type": "x"
+    },
+    {
+      "scale": "y",
+      "title": "Tweet Count",
+      "type": "y"
+    }
+  ],
+  "data": [
+    {
+      "name": "table",
+      "values": [
+        {
+          "col": "Advertisements",
+          "idx": 1421558833000,
+          "val": 0.005737633660784143
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421558833000,
+          "val": 0.0
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421558833000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421558833000,
+          "val": 0.030927835051546393
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421562433000,
+          "val": 0.003167415683621286
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421562433000,
+          "val": 0.0
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421562433000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421562433000,
+          "val": 0.013745704467353952
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421566033000,
+          "val": 0.0028159005779210718
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421566033000,
+          "val": 0.010362694300518135
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421566033000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421566033000,
+          "val": 0.01718213058419244
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421569633000,
+          "val": 0.0026004558357177144
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421569633000,
+          "val": 0.0051813471502590676
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421569633000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421569633000,
+          "val": 0.020618556701030927
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421573233000,
+          "val": 0.00634995029652
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421573233000,
+          "val": 0.02072538860103627
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421573233000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421573233000,
+          "val": 0.01718213058419244
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421576833000,
+          "val": 0.0
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421576833000,
+          "val": 0.0
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421576833000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421576833000,
+          "val": 0.0
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421580433000,
+          "val": 0.0002721407269937143
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421580433000,
+          "val": 0.015544041450777202
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421580433000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421580433000,
+          "val": 0.006872852233676976
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421584033000,
+          "val": 0.004138806889696072
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421584033000,
+          "val": 0.0
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421584033000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421584033000,
+          "val": 0.013745704467353952
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421587633000,
+          "val": 0.006478461195378143
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421587633000,
+          "val": 0.0
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421587633000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421587633000,
+          "val": 0.03436426116838488
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421591233000,
+          "val": 0.014627564075912144
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421591233000,
+          "val": 0.0051813471502590676
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421591233000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421591233000,
+          "val": 0.054982817869415807
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421594833000,
+          "val": 0.015564937691112715
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421594833000,
+          "val": 0.031088082901554404
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421594833000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421594833000,
+          "val": 0.041237113402061855
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421598433000,
+          "val": 0.0240504367480695
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421598433000,
+          "val": 0.031088082901554404
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421598433000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421598433000,
+          "val": 0.08934707903780069
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421602033000,
+          "val": 0.025486735029425216
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421602033000,
+          "val": 0.05181347150259067
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421602033000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421602033000,
+          "val": 0.058419243986254296
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421605633000,
+          "val": 0.02877888187958529
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421605633000,
+          "val": 0.031088082901554404
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421605633000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421605633000,
+          "val": 0.06529209621993128
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421609233000,
+          "val": 0.07113456225030143
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421609233000,
+          "val": 0.09844559585492228
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421609233000,
+          "val": 0.2
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421609233000,
+          "val": 0.13058419243986255
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421612833000,
+          "val": 0.04751123525431929
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421612833000,
+          "val": 0.07772020725388601
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421612833000,
+          "val": 0.3
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421612833000,
+          "val": 0.08247422680412371
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421616433000,
+          "val": 0.04022013161027936
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421616433000,
+          "val": 0.13471502590673576
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421616433000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421616433000,
+          "val": 0.09621993127147767
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421620033000,
+          "val": 0.09988698600365122
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421620033000,
+          "val": 0.11917098445595854
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421620033000,
+          "val": 0.2
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421620033000,
+          "val": 0.16494845360824742
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421623633000,
+          "val": 1.0
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421623633000,
+          "val": 0.44041450777202074
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421623633000,
+          "val": 1.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421623633000,
+          "val": 1.0
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421627233000,
+          "val": 0.12003295926582479
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421627233000,
+          "val": 0.08290155440414508
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421627233000,
+          "val": 0.4
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421627233000,
+          "val": 0.2646048109965636
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421630833000,
+          "val": 0.2952764685204994
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421630833000,
+          "val": 0.3316062176165803
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421630833000,
+          "val": 0.3
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421630833000,
+          "val": 0.3917525773195876
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421634433000,
+          "val": 0.8235998926556022
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421634433000,
+          "val": 1.0
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421634433000,
+          "val": 0.7
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421634433000,
+          "val": 0.7766323024054983
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421638033000,
+          "val": 0.28153714153963616
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421638033000,
+          "val": 0.36787564766839376
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421638033000,
+          "val": 0.3
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421638033000,
+          "val": 0.3539518900343643
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421641633000,
+          "val": 0.12326463039887516
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421641633000,
+          "val": 0.27979274611398963
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421641633000,
+          "val": 0.2
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421641633000,
+          "val": 0.2268041237113402
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421645233000,
+          "val": 0.08073886207378793
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421645233000,
+          "val": 0.09326424870466321
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421645233000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421645233000,
+          "val": 0.16494845360824742
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421648833000,
+          "val": 0.05027799931208872
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421648833000,
+          "val": 0.08808290155440414
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421648833000,
+          "val": 0.2
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421648833000,
+          "val": 0.12714776632302405
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421652433000,
+          "val": 0.043206120142571504
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421652433000,
+          "val": 0.06735751295336788
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421652433000,
+          "val": 0.3
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421652433000,
+          "val": 0.12714776632302405
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421656033000,
+          "val": 0.037986309809539286
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421656033000,
+          "val": 0.02072538860103627
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421656033000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421656033000,
+          "val": 0.12371134020618557
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421659633000,
+          "val": 0.03230915186586486
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421659633000,
+          "val": 0.15544041450777202
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421659633000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421659633000,
+          "val": 0.07216494845360824
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421663233000,
+          "val": 0.030921990104660787
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421663233000,
+          "val": 0.06217616580310881
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421663233000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421663233000,
+          "val": 0.06529209621993128
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421666833000,
+          "val": 0.06527597715529786
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421666833000,
+          "val": 0.025906735751295335
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421666833000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421666833000,
+          "val": 0.0859106529209622
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421670433000,
+          "val": 0.08766333168285022
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421670433000,
+          "val": 0.06735751295336788
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421670433000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421670433000,
+          "val": 0.06872852233676977
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421674033000,
+          "val": 0.044370277696933504
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421674033000,
+          "val": 0.05181347150259067
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421674033000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421674033000,
+          "val": 0.07903780068728522
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421677633000,
+          "val": 0.06375274503059693
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421677633000,
+          "val": 0.05699481865284974
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421677633000,
+          "val": 0.2
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421677633000,
+          "val": 0.0859106529209622
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421681233000,
+          "val": 0.05769761385498679
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421681233000,
+          "val": 0.03626943005181347
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421681233000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421681233000,
+          "val": 0.12027491408934708
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421684833000,
+          "val": 0.04890595648016208
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421684833000,
+          "val": 0.06735751295336788
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421684833000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421684833000,
+          "val": 0.12714776632302405
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421688433000,
+          "val": 0.04453280618666586
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421688433000,
+          "val": 0.09844559585492228
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421688433000,
+          "val": 0.2
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421688433000,
+          "val": 0.09965635738831616
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421692033000,
+          "val": 0.04007650178214379
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421692033000,
+          "val": 0.06217616580310881
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421692033000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421692033000,
+          "val": 0.1134020618556701
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421695633000,
+          "val": 0.05044808726645979
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421695633000,
+          "val": 0.046632124352331605
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421695633000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421695633000,
+          "val": 0.08934707903780069
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421699233000,
+          "val": 0.04466509681784336
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421699233000,
+          "val": 0.18134715025906736
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421699233000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421699233000,
+          "val": 0.08934707903780069
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421702833000,
+          "val": 0.038231992410297504
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421702833000,
+          "val": 0.010362694300518135
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421702833000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421702833000,
+          "val": 0.09278350515463918
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421706433000,
+          "val": 0.03274760081491029
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421706433000,
+          "val": 0.06735751295336788
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421706433000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421706433000,
+          "val": 0.06529209621993128
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421710033000,
+          "val": 0.03629676946278665
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421710033000,
+          "val": 0.09844559585492228
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421710033000,
+          "val": 0.2
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421710033000,
+          "val": 0.061855670103092786
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421713633000,
+          "val": 0.12962969962467258
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421713633000,
+          "val": 0.06735751295336788
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421713633000,
+          "val": 0.2
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421713633000,
+          "val": 0.05154639175257732
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421717233000,
+          "val": 0.23236282406479974
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421717233000,
+          "val": 0.04145077720207254
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421717233000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421717233000,
+          "val": 0.0859106529209622
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421720833000,
+          "val": 0.5934028552097941
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421720833000,
+          "val": 0.06735751295336788
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421720833000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421720833000,
+          "val": 0.07216494845360824
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421724433000,
+          "val": 0.018448873450782215
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421724433000,
+          "val": 0.046632124352331605
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421724433000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421724433000,
+          "val": 0.061855670103092786
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421728033000,
+          "val": 0.01647207344775843
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421728033000,
+          "val": 0.02072538860103627
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421728033000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421728033000,
+          "val": 0.07216494845360824
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421731633000,
+          "val": 0.014332744955002287
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421731633000,
+          "val": 0.010362694300518135
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421731633000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421731633000,
+          "val": 0.054982817869415807
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421735233000,
+          "val": 0.010908307473664716
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421735233000,
+          "val": 0.0051813471502590676
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421735233000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421735233000,
+          "val": 0.044673539518900345
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421738833000,
+          "val": 0.0071323548866269295
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421738833000,
+          "val": 0.0051813471502590676
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421738833000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421738833000,
+          "val": 0.030927835051546393
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421742433000,
+          "val": 0.005828347236448715
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421742433000,
+          "val": 0.0051813471502590676
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421742433000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421742433000,
+          "val": 0.041237113402061855
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421746033000,
+          "val": 0.007914759476733858
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421746033000,
+          "val": 0.015544041450777202
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421746033000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421746033000,
+          "val": 0.030927835051546393
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421749633000,
+          "val": 0.005737633660784143
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421749633000,
+          "val": 0.0051813471502590676
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421749633000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421749633000,
+          "val": 0.027491408934707903
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421753233000,
+          "val": 0.010341347625761143
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421753233000,
+          "val": 0.0051813471502590676
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421753233000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421753233000,
+          "val": 0.05154639175257732
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421756833000,
+          "val": 0.009400194278241215
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421756833000,
+          "val": 0.015544041450777202
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421756833000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421756833000,
+          "val": 0.044673539518900345
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421760433000,
+          "val": 0.009876440550480215
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421760433000,
+          "val": 0.02072538860103627
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421760433000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421760433000,
+          "val": 0.037800687285223365
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421764033000,
+          "val": 0.015829518953467715
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421764033000,
+          "val": 0.010362694300518135
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421764033000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421764033000,
+          "val": 0.048109965635738834
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421767633000,
+          "val": 0.026072593538925572
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421767633000,
+          "val": 0.05181347150259067
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421767633000,
+          "val": 0.2
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421767633000,
+          "val": 0.044673539518900345
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421771233000,
+          "val": 0.02971625549478586
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421771233000,
+          "val": 0.06217616580310881
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421771233000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421771233000,
+          "val": 0.054982817869415807
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421774833000,
+          "val": 0.027943561037007358
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421774833000,
+          "val": 0.031088082901554404
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421774833000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421774833000,
+          "val": 0.07560137457044673
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421778433000,
+          "val": 0.027350143062868287
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421778433000,
+          "val": 0.08808290155440414
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421778433000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421778433000,
+          "val": 0.05154639175257732
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421782033000,
+          "val": 0.013992569046260143
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421782033000,
+          "val": 0.015544041450777202
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421782033000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421782033000,
+          "val": 0.05154639175257732
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421785633000,
+          "val": 0.003299706314798786
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421785633000,
+          "val": 0.0
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421785633000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421785633000,
+          "val": 0.01718213058419244
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421789233000,
+          "val": 0.009097815692692643
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421789233000,
+          "val": 0.03626943005181347
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421789233000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421789233000,
+          "val": 0.041237113402061855
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421792833000,
+          "val": 0.030956007695535002
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421792833000,
+          "val": 0.05699481865284974
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421792833000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421792833000,
+          "val": 0.061855670103092786
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421796433000,
+          "val": 0.024761026424108646
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421796433000,
+          "val": 0.06735751295336788
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421796433000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421796433000,
+          "val": 0.054982817869415807
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421800033000,
+          "val": 0.019465621444689288
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421800033000,
+          "val": 0.010362694300518135
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421800033000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421800033000,
+          "val": 0.048109965635738834
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421803633000,
+          "val": 0.022882499461388144
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421803633000,
+          "val": 0.06217616580310881
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421803633000,
+          "val": 0.2
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421803633000,
+          "val": 0.06872852233676977
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421807233000,
+          "val": 0.017322513219613787
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421807233000,
+          "val": 0.031088082901554404
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421807233000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421807233000,
+          "val": 0.05154639175257732
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421810833000,
+          "val": 0.025014268489505574
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421810833000,
+          "val": 0.09326424870466321
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421810833000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421810833000,
+          "val": 0.07560137457044673
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421814433000,
+          "val": 0.04088914423080557
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421814433000,
+          "val": 0.03626943005181347
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421814433000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421814433000,
+          "val": 0.06872852233676977
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421818033000,
+          "val": 0.02409579353590179
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421818033000,
+          "val": 0.06217616580310881
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421818033000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421818033000,
+          "val": 0.061855670103092786
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421821633000,
+          "val": 0.01443479772762493
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421821633000,
+          "val": 0.031088082901554404
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421821633000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421821633000,
+          "val": 0.044673539518900345
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421825233000,
+          "val": 0.011044377837161572
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421825233000,
+          "val": 0.0051813471502590676
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421825233000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421825233000,
+          "val": 0.044673539518900345
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421828833000,
+          "val": 0.006769500583968644
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421828833000,
+          "val": 0.010362694300518135
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421828833000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421828833000,
+          "val": 0.013745704467353952
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421832433000,
+          "val": 0.005420136145958143
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421832433000,
+          "val": 0.0
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421832433000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421832433000,
+          "val": 0.041237113402061855
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421836033000,
+          "val": 0.007052980507920429
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421836033000,
+          "val": 0.0
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421836033000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421836033000,
+          "val": 0.037800687285223365
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421839633000,
+          "val": 0.012915345335243357
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421839633000,
+          "val": 0.03626943005181347
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421839633000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421839633000,
+          "val": 0.05154639175257732
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421843233000,
+          "val": 0.016362461210497073
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421843233000,
+          "val": 0.0
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421843233000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421843233000,
+          "val": 0.044673539518900345
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421846833000,
+          "val": 0.016978557578552288
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421846833000,
+          "val": 0.08290155440414508
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421846833000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421846833000,
+          "val": 0.044673539518900345
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421850433000,
+          "val": 0.017333852416571857
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421850433000,
+          "val": 0.05699481865284974
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421850433000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421850433000,
+          "val": 0.044673539518900345
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421854033000,
+          "val": 0.022508305961771786
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421854033000,
+          "val": 0.05181347150259067
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421854033000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421854033000,
+          "val": 0.06872852233676977
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421857633000,
+          "val": 0.023135741526785072
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421857633000,
+          "val": 0.046632124352331605
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421857633000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421857633000,
+          "val": 0.058419243986254296
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421861233000,
+          "val": 0.027168715911539146
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421861233000,
+          "val": 0.05699481865284974
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421861233000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421861233000,
+          "val": 0.05154639175257732
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421864833000,
+          "val": 0.039192044419414214
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421864833000,
+          "val": 0.025906735751295335
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421864833000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421864833000,
+          "val": 0.048109965635738834
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421868433000,
+          "val": 0.030570474998960574
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421868433000,
+          "val": 0.02072538860103627
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421868433000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421868433000,
+          "val": 0.05154639175257732
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421872033000,
+          "val": 0.025025607686463645
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421872033000,
+          "val": 0.03626943005181347
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421872033000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421872033000,
+          "val": 0.044673539518900345
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421875633000,
+          "val": 0.02463629525756986
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421875633000,
+          "val": 0.05181347150259067
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421875633000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421875633000,
+          "val": 0.05154639175257732
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421879233000,
+          "val": 0.023090384738952786
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421879233000,
+          "val": 0.010362694300518135
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421879233000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421879233000,
+          "val": 0.044673539518900345
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421882833000,
+          "val": 0.03438422490919193
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421882833000,
+          "val": 0.05699481865284974
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421882833000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421882833000,
+          "val": 0.07903780068728522
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421886433000,
+          "val": 0.031957636760164644
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421886433000,
+          "val": 0.10880829015544041
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421886433000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421886433000,
+          "val": 0.044673539518900345
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421890033000,
+          "val": 0.03130374306891586
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421890033000,
+          "val": 0.031088082901554404
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421890033000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421890033000,
+          "val": 0.058419243986254296
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421893633000,
+          "val": 0.02778481227959436
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421893633000,
+          "val": 0.046632124352331605
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421893633000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421893633000,
+          "val": 0.07560137457044673
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421897233000,
+          "val": 0.02324535376404643
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421897233000,
+          "val": 0.06735751295336788
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421897233000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421897233000,
+          "val": 0.07903780068728522
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421900833000,
+          "val": 0.014797652030283215
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421900833000,
+          "val": 0.04145077720207254
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421900833000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421900833000,
+          "val": 0.054982817869415807
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421904433000,
+          "val": 0.014109740748160215
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421904433000,
+          "val": 0.031088082901554404
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421904433000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421904433000,
+          "val": 0.044673539518900345
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421908033000,
+          "val": 0.009797066171773715
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421908033000,
+          "val": 0.02072538860103627
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421908033000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421908033000,
+          "val": 0.044673539518900345
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421911633000,
+          "val": 0.007427174007536786
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421911633000,
+          "val": 0.0
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421911633000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421911633000,
+          "val": 0.03436426116838488
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421915233000,
+          "val": 0.0041841636775283575
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421915233000,
+          "val": 0.0
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421915233000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421915233000,
+          "val": 0.024054982817869417
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421918833000,
+          "val": 0.004671749146725429
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421918833000,
+          "val": 0.04145077720207254
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421918833000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421918833000,
+          "val": 0.037800687285223365
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421922433000,
+          "val": 0.004728445131515786
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421922433000,
+          "val": 0.0
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421922433000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421922433000,
+          "val": 0.027491408934707903
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421926033000,
+          "val": 0.00840234494593093
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421926033000,
+          "val": 0.02072538860103627
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421926033000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421926033000,
+          "val": 0.03436426116838488
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421929633000,
+          "val": 0.008425023339847073
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421929633000,
+          "val": 0.0051813471502590676
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421929633000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421929633000,
+          "val": 0.030927835051546393
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421933233000,
+          "val": 0.013346234819650072
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421933233000,
+          "val": 0.08290155440414508
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421933233000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421933233000,
+          "val": 0.044673539518900345
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421936833000,
+          "val": 0.02733502413359086
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421936833000,
+          "val": 0.02072538860103627
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421936833000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421936833000,
+          "val": 0.05154639175257732
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421940433000,
+          "val": 0.035147730837702076
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421940433000,
+          "val": 0.04145077720207254
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421940433000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421940433000,
+          "val": 0.06872852233676977
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421944033000,
+          "val": 0.049658123211714145
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421944033000,
+          "val": 0.12435233160621761
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421944033000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421944033000,
+          "val": 0.08247422680412371
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421947633000,
+          "val": 0.03741557022931636
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421947633000,
+          "val": 0.031088082901554404
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421947633000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421947633000,
+          "val": 0.06872852233676977
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421951233000,
+          "val": 0.02752023101723936
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421951233000,
+          "val": 0.04145077720207254
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421951233000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421951233000,
+          "val": 0.054982817869415807
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421954833000,
+          "val": 0.017617332340523643
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421954833000,
+          "val": 0.031088082901554404
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421954833000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421954833000,
+          "val": 0.037800687285223365
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421958433000,
+          "val": 0.009468229459989643
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421958433000,
+          "val": 0.025906735751295335
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421958433000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421958433000,
+          "val": 0.020618556701030927
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421962033000,
+          "val": 0.003065362910998643
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421962033000,
+          "val": 0.010362694300518135
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421962033000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421962033000,
+          "val": 0.01718213058419244
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421965633000,
+          "val": 0.003038904784763143
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421965633000,
+          "val": 0.0
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421965633000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421965633000,
+          "val": 0.013745704467353952
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421969233000,
+          "val": 0.004342912434941357
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421969233000,
+          "val": 0.0
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421969233000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421969233000,
+          "val": 0.013745704467353952
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421972833000,
+          "val": 0.06297789990512871
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421972833000,
+          "val": 0.05699481865284974
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421972833000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421972833000,
+          "val": 0.06872852233676977
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421976433000,
+          "val": 0.030079109797444145
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421976433000,
+          "val": 0.046632124352331605
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421976433000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421976433000,
+          "val": 0.06529209621993128
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421980033000,
+          "val": 0.030105567923679646
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421980033000,
+          "val": 0.08290155440414508
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421980033000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421980033000,
+          "val": 0.06872852233676977
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421983633000,
+          "val": 0.029122837520646788
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421983633000,
+          "val": 0.04145077720207254
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421983633000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421983633000,
+          "val": 0.058419243986254296
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421987233000,
+          "val": 0.027172495643858503
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421987233000,
+          "val": 0.04145077720207254
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421987233000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421987233000,
+          "val": 0.054982817869415807
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421990833000,
+          "val": 0.01852068836485
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421990833000,
+          "val": 0.03626943005181347
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421990833000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421990833000,
+          "val": 0.058419243986254296
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421994433000,
+          "val": 0.010707981660738787
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421994433000,
+          "val": 0.0051813471502590676
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421994433000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421994433000,
+          "val": 0.03436426116838488
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1421998033000,
+          "val": 0.007979014926162929
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1421998033000,
+          "val": 0.031088082901554404
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1421998033000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1421998033000,
+          "val": 0.027491408934707903
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422001633000,
+          "val": 0.009925577070631858
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422001633000,
+          "val": 0.031088082901554404
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422001633000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422001633000,
+          "val": 0.024054982817869417
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422005233000,
+          "val": 0.006837535765717072
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422005233000,
+          "val": 0.0
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422005233000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422005233000,
+          "val": 0.024054982817869417
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422008833000,
+          "val": 0.0094455510660735
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422008833000,
+          "val": 0.025906735751295335
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422008833000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422008833000,
+          "val": 0.03436426116838488
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422012433000,
+          "val": 0.012571389694181858
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422012433000,
+          "val": 0.02072538860103627
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422012433000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422012433000,
+          "val": 0.027491408934707903
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422016033000,
+          "val": 0.011717170190007144
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422016033000,
+          "val": 0.02072538860103627
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422016033000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422016033000,
+          "val": 0.03436426116838488
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422019633000,
+          "val": 0.028986767157149932
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422019633000,
+          "val": 0.04145077720207254
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422019633000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422019633000,
+          "val": 0.048109965635738834
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422023233000,
+          "val": 0.028041834077310646
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422023233000,
+          "val": 0.05699481865284974
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422023233000,
+          "val": 0.2
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422023233000,
+          "val": 0.06529209621993128
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422026833000,
+          "val": 0.06506053241309451
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422026833000,
+          "val": 0.05181347150259067
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422026833000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422026833000,
+          "val": 0.06529209621993128
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422030433000,
+          "val": 0.043946947677165504
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422030433000,
+          "val": 0.046632124352331605
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422030433000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422030433000,
+          "val": 0.06872852233676977
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422034033000,
+          "val": 0.02999217595409893
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422034033000,
+          "val": 0.010362694300518135
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422034033000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422034033000,
+          "val": 0.058419243986254296
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422037633000,
+          "val": 0.04691403754786086
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422037633000,
+          "val": 0.05181347150259067
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422037633000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422037633000,
+          "val": 0.07560137457044673
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422041233000,
+          "val": 0.04339510675853936
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422041233000,
+          "val": 0.05181347150259067
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422041233000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422041233000,
+          "val": 0.07903780068728522
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422044833000,
+          "val": 0.043833555707584786
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422044833000,
+          "val": 0.05699481865284974
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422044833000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422044833000,
+          "val": 0.061855670103092786
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422048433000,
+          "val": 0.0400840612467825
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422048433000,
+          "val": 0.08808290155440414
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422048433000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422048433000,
+          "val": 0.07216494845360824
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422052033000,
+          "val": 0.02874864402103043
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422052033000,
+          "val": 0.04145077720207254
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422052033000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422052033000,
+          "val": 0.06872852233676977
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422055633000,
+          "val": 0.029867444787560146
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422055633000,
+          "val": 0.05181347150259067
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422055633000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422055633000,
+          "val": 0.061855670103092786
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422059233000,
+          "val": 0.030268096413412004
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422059233000,
+          "val": 0.046632124352331605
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422059233000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422059233000,
+          "val": 0.06872852233676977
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422062833000,
+          "val": 0.02580045281193186
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422062833000,
+          "val": 0.07253886010362694
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422062833000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422062833000,
+          "val": 0.05154639175257732
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422066433000,
+          "val": 0.01979445815647336
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422066433000,
+          "val": 0.05699481865284974
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422066433000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422066433000,
+          "val": 0.07560137457044673
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422070033000,
+          "val": 0.01985871360590243
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422070033000,
+          "val": 0.05181347150259067
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422070033000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422070033000,
+          "val": 0.06529209621993128
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422073633000,
+          "val": 0.015432647059935216
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422073633000,
+          "val": 0.06735751295336788
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422073633000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422073633000,
+          "val": 0.037800687285223365
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422077233000,
+          "val": 0.011070835963397072
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422077233000,
+          "val": 0.031088082901554404
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422077233000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422077233000,
+          "val": 0.027491408934707903
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422080833000,
+          "val": 0.006950927735297786
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422080833000,
+          "val": 0.010362694300518135
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422080833000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422080833000,
+          "val": 0.03436426116838488
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422084433000,
+          "val": 0.008039490643272643
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422084433000,
+          "val": 0.02072538860103627
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422084433000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422084433000,
+          "val": 0.024054982817869417
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422088033000,
+          "val": 0.006134505554316643
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422088033000,
+          "val": 0.015544041450777202
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422088033000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422088033000,
+          "val": 0.030927835051546393
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422091633000,
+          "val": 0.004036754117073429
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422091633000,
+          "val": 0.0
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422091633000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422091633000,
+          "val": 0.024054982817869417
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422095233000,
+          "val": 0.0046263923588931435
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422095233000,
+          "val": 0.0051813471502590676
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422095233000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422095233000,
+          "val": 0.03436426116838488
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422098833000,
+          "val": 0.005775430983977715
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422098833000,
+          "val": 0.0051813471502590676
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422098833000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422098833000,
+          "val": 0.024054982817869417
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422102433000,
+          "val": 0.006909350679784858
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422102433000,
+          "val": 0.0
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422102433000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422102433000,
+          "val": 0.037800687285223365
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422106033000,
+          "val": 0.01771560538082693
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422106033000,
+          "val": 0.0
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422106033000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422106033000,
+          "val": 0.037800687285223365
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422109633000,
+          "val": 0.01787057440592057
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422109633000,
+          "val": 0.031088082901554404
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422109633000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422109633000,
+          "val": 0.06529209621993128
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422113233000,
+          "val": 0.022644376325268646
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422113233000,
+          "val": 0.08808290155440414
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422113233000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422113233000,
+          "val": 0.06529209621993128
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422116833000,
+          "val": 0.023687582445411217
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422116833000,
+          "val": 0.06217616580310881
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422116833000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422116833000,
+          "val": 0.05154639175257732
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422120433000,
+          "val": 0.04874720772274908
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422120433000,
+          "val": 0.9378238341968912
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422120433000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422120433000,
+          "val": 0.06872852233676977
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422124033000,
+          "val": 0.028185463905446215
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422124033000,
+          "val": 0.05181347150259067
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422124033000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422124033000,
+          "val": 0.048109965635738834
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422127633000,
+          "val": 0.04472557253495307
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422127633000,
+          "val": 0.02072538860103627
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422127633000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422127633000,
+          "val": 0.09621993127147767
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422131233000,
+          "val": 0.05079960237216
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422131233000,
+          "val": 0.06217616580310881
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422131233000,
+          "val": 0.3
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422131233000,
+          "val": 0.06529209621993128
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422134833000,
+          "val": 0.03371521228866572
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422134833000,
+          "val": 0.06217616580310881
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422134833000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422134833000,
+          "val": 0.0859106529209622
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422138433000,
+          "val": 0.033439291829352645
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422138433000,
+          "val": 0.12953367875647667
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422138433000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422138433000,
+          "val": 0.07216494845360824
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422142033000,
+          "val": 0.02240247345682979
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422142033000,
+          "val": 0.05181347150259067
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422142033000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422142033000,
+          "val": 0.054982817869415807
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422145633000,
+          "val": 0.020300942287267216
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422145633000,
+          "val": 0.08808290155440414
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422145633000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422145633000,
+          "val": 0.061855670103092786
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422149233000,
+          "val": 0.019677286454573287
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422149233000,
+          "val": 0.015544041450777202
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422149233000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422149233000,
+          "val": 0.06529209621993128
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422152833000,
+          "val": 0.02696461036629386
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422152833000,
+          "val": 0.08808290155440414
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422152833000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422152833000,
+          "val": 0.054982817869415807
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422156433000,
+          "val": 0.015478003847767501
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422156433000,
+          "val": 0.0051813471502590676
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422156433000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422156433000,
+          "val": 0.044673539518900345
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422160033000,
+          "val": 0.01874747230401143
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422160033000,
+          "val": 0.04145077720207254
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422160033000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422160033000,
+          "val": 0.06529209621993128
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422163633000,
+          "val": 0.012722578986956144
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422163633000,
+          "val": 0.010362694300518135
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422163633000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422163633000,
+          "val": 0.058419243986254296
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422167233000,
+          "val": 0.008345648961140572
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422167233000,
+          "val": 0.04145077720207254
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422167233000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422167233000,
+          "val": 0.030927835051546393
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422170833000,
+          "val": 0.007007623720088144
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422170833000,
+          "val": 0.015544041450777202
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422170833000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422170833000,
+          "val": 0.027491408934707903
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422174433000,
+          "val": 0.0053180833733355
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422174433000,
+          "val": 0.010362694300518135
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422174433000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422174433000,
+          "val": 0.024054982817869417
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422178033000,
+          "val": 0.004392048955093
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422178033000,
+          "val": 0.010362694300518135
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422178033000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422178033000,
+          "val": 0.024054982817869417
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422181633000,
+          "val": 0.005287845514780643
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422181633000,
+          "val": 0.0
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422181633000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422181633000,
+          "val": 0.030927835051546393
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422185233000,
+          "val": 0.007011403452407501
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422185233000,
+          "val": 0.010362694300518135
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422185233000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422185233000,
+          "val": 0.030927835051546393
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422188833000,
+          "val": 0.0069622669322558575
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422188833000,
+          "val": 0.031088082901554404
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422188833000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422188833000,
+          "val": 0.03436426116838488
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422192433000,
+          "val": 0.012677222199123858
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422192433000,
+          "val": 0.0051813471502590676
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422192433000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422192433000,
+          "val": 0.058419243986254296
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422196033000,
+          "val": 0.01768914725459143
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422196033000,
+          "val": 0.031088082901554404
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422196033000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422196033000,
+          "val": 0.044673539518900345
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422199633000,
+          "val": 0.03552948380195715
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422199633000,
+          "val": 0.05181347150259067
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422199633000,
+          "val": 0.2
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422199633000,
+          "val": 0.06529209621993128
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422203233000,
+          "val": 0.04093450101863786
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422203233000,
+          "val": 0.02072538860103627
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422203233000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422203233000,
+          "val": 0.08247422680412371
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422206833000,
+          "val": 0.03808836258216193
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422206833000,
+          "val": 0.046632124352331605
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422206833000,
+          "val": 0.2
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422206833000,
+          "val": 0.09278350515463918
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422210433000,
+          "val": 0.04432114117678186
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422210433000,
+          "val": 0.10362694300518134
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422210433000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422210433000,
+          "val": 0.09965635738831616
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422214033000,
+          "val": 0.04392048955093
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422214033000,
+          "val": 0.16580310880829016
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422214033000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422214033000,
+          "val": 0.0859106529209622
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422217633000,
+          "val": 0.040250369468834216
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422217633000,
+          "val": 0.06735751295336788
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422217633000,
+          "val": 0.2
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422217633000,
+          "val": 0.06872852233676977
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422221233000,
+          "val": 0.03665962376544493
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422221233000,
+          "val": 0.07253886010362694
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422221233000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422221233000,
+          "val": 0.07216494845360824
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422224833000,
+          "val": 0.04160351363916408
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422224833000,
+          "val": 0.13471502590673576
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422224833000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422224833000,
+          "val": 0.07216494845360824
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422228433000,
+          "val": 0.029296705207337216
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422228433000,
+          "val": 0.046632124352331605
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422228433000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422228433000,
+          "val": 0.08934707903780069
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422232033000,
+          "val": 0.034516515540369434
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422232033000,
+          "val": 0.15544041450777202
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422232033000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422232033000,
+          "val": 0.08247422680412371
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422235633000,
+          "val": 0.035903677301573504
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422235633000,
+          "val": 0.09326424870466321
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422235633000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422235633000,
+          "val": 0.06529209621993128
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422239233000,
+          "val": 0.04028816679202779
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422239233000,
+          "val": 0.08290155440414508
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422239233000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422239233000,
+          "val": 0.0859106529209622
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422242833000,
+          "val": 0.026227562564019216
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422242833000,
+          "val": 0.05699481865284974
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422242833000,
+          "val": 0.2
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422242833000,
+          "val": 0.07560137457044673
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422246433000,
+          "val": 0.02782638933510729
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422246433000,
+          "val": 0.05699481865284974
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422246433000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422246433000,
+          "val": 0.10309278350515463
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422250033000,
+          "val": 0.014638903272870216
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422250033000,
+          "val": 0.031088082901554404
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422250033000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422250033000,
+          "val": 0.048109965635738834
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422253633000,
+          "val": 0.011849460821184644
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422253633000,
+          "val": 0.0051813471502590676
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422253633000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422253633000,
+          "val": 0.030927835051546393
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422257233000,
+          "val": 0.008844573627295715
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422257233000,
+          "val": 0.031088082901554404
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422257233000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422257233000,
+          "val": 0.037800687285223365
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422260833000,
+          "val": 0.007113456225030144
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422260833000,
+          "val": 0.025906735751295335
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422260833000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422260833000,
+          "val": 0.030927835051546393
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422264433000,
+          "val": 0.008379666552014785
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422264433000,
+          "val": 0.02072538860103627
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422264433000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422264433000,
+          "val": 0.037800687285223365
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422268033000,
+          "val": 0.008432582804485786
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422268033000,
+          "val": 0.0051813471502590676
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422268033000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422268033000,
+          "val": 0.027491408934707903
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422271633000,
+          "val": 0.017167544194520143
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422271633000,
+          "val": 0.07772020725388601
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422271633000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422271633000,
+          "val": 0.044673539518900345
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422275233000,
+          "val": 0.019665947257615217
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422275233000,
+          "val": 0.03626943005181347
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422275233000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422275233000,
+          "val": 0.048109965635738834
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422278833000,
+          "val": 0.03166281763925479
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422278833000,
+          "val": 0.03626943005181347
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422278833000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422278833000,
+          "val": 0.05154639175257732
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422282433000,
+          "val": 0.03721524441639043
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422282433000,
+          "val": 0.07253886010362694
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422282433000,
+          "val": 0.2
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422282433000,
+          "val": 0.06872852233676977
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422286033000,
+          "val": 0.0646372023933265
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422286033000,
+          "val": 0.10362694300518134
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422286033000,
+          "val": 0.2
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422286033000,
+          "val": 0.09965635738831616
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422289633000,
+          "val": 0.06837157792485136
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422289633000,
+          "val": 0.09326424870466321
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422289633000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422289633000,
+          "val": 0.0859106529209622
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422293233000,
+          "val": 0.05420514119190079
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422293233000,
+          "val": 0.09326424870466321
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422293233000,
+          "val": 0.2
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422293233000,
+          "val": 0.07216494845360824
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422296833000,
+          "val": 0.06284560927395122
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422296833000,
+          "val": 0.08808290155440414
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422296833000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422296833000,
+          "val": 0.08934707903780069
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422300433000,
+          "val": 0.06647415230053408
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422300433000,
+          "val": 0.16062176165803108
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422300433000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422300433000,
+          "val": 0.06529209621993128
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422304033000,
+          "val": 0.018316582819604715
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422304033000,
+          "val": 0.05181347150259067
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422304033000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422304033000,
+          "val": 0.041237113402061855
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422307633000,
+          "val": 0.06356753814694843
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422307633000,
+          "val": 0.09844559585492228
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422307633000,
+          "val": 0.3
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422307633000,
+          "val": 0.10996563573883161
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422311233000,
+          "val": 0.07114968117957886
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422311233000,
+          "val": 0.07253886010362694
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422311233000,
+          "val": 0.2
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422311233000,
+          "val": 0.10309278350515463
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422314833000,
+          "val": 0.046502046725050934
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422314833000,
+          "val": 0.046632124352331605
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422314833000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422314833000,
+          "val": 0.07216494845360824
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422318433000,
+          "val": 0.14757208894466095
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422318433000,
+          "val": 0.12435233160621761
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422318433000,
+          "val": 0.3
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422318433000,
+          "val": 0.09278350515463918
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422322033000,
+          "val": 0.16156087825860171
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422322033000,
+          "val": 0.13989637305699482
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422322033000,
+          "val": 0.2
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422322033000,
+          "val": 0.08247422680412371
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422325633000,
+          "val": 0.056578813088457074
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422325633000,
+          "val": 0.09844559585492228
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422325633000,
+          "val": 0.2
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422325633000,
+          "val": 0.06529209621993128
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422329233000,
+          "val": 0.05120025399801186
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422329233000,
+          "val": 0.12953367875647667
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422329233000,
+          "val": 0.2
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422329233000,
+          "val": 0.054982817869415807
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422332833000,
+          "val": 0.03969852855020808
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422332833000,
+          "val": 0.08808290155440414
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422332833000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422332833000,
+          "val": 0.054982817869415807
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422336433000,
+          "val": 0.02406555567734693
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422336433000,
+          "val": 0.08808290155440414
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422336433000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422336433000,
+          "val": 0.058419243986254296
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422340033000,
+          "val": 0.017243138840907286
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422340033000,
+          "val": 0.02072538860103627
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422340033000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422340033000,
+          "val": 0.041237113402061855
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422343633000,
+          "val": 0.013935873061469787
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422343633000,
+          "val": 0.031088082901554404
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422343633000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422343633000,
+          "val": 0.037800687285223365
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422347233000,
+          "val": 0.009120494086608786
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422347233000,
+          "val": 0.02072538860103627
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422347233000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422347233000,
+          "val": 0.03436426116838488
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422350833000,
+          "val": 0.009638317414360715
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422350833000,
+          "val": 0.0
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422350833000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422350833000,
+          "val": 0.03436426116838488
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422354433000,
+          "val": 0.014415899066028144
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422354433000,
+          "val": 0.05181347150259067
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422354433000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422354433000,
+          "val": 0.030927835051546393
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422358033000,
+          "val": 0.019495859303244146
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422358033000,
+          "val": 0.0051813471502590676
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422358033000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422358033000,
+          "val": 0.048109965635738834
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422361633000,
+          "val": 0.029020784748024143
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422361633000,
+          "val": 0.08290155440414508
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422361633000,
+          "val": 0.2
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422361633000,
+          "val": 0.041237113402061855
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422365233000,
+          "val": 0.03828868839508786
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422365233000,
+          "val": 0.07772020725388601
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422365233000,
+          "val": 0.2
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422365233000,
+          "val": 0.06872852233676977
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422368833000,
+          "val": 0.05614414387173101
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422368833000,
+          "val": 0.06735751295336788
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422368833000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422368833000,
+          "val": 0.06529209621993128
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422372433000,
+          "val": 0.07160324905790172
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422372433000,
+          "val": 0.21243523316062177
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422372433000,
+          "val": 0.0
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422372433000,
+          "val": 0.07216494845360824
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422376033000,
+          "val": 0.09136746935582023
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422376033000,
+          "val": 0.15544041450777202
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422376033000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422376033000,
+          "val": 0.07903780068728522
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422379633000,
+          "val": 0.11157013860278416
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422379633000,
+          "val": 0.27461139896373055
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422379633000,
+          "val": 0.3
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422379633000,
+          "val": 0.09965635738831616
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422383233000,
+          "val": 0.117368247980678
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422383233000,
+          "val": 0.27979274611398963
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422383233000,
+          "val": 0.3
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422383233000,
+          "val": 0.08247422680412371
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422386833000,
+          "val": 0.1321432216170451
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422386833000,
+          "val": 0.37823834196891193
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422386833000,
+          "val": 0.2
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422386833000,
+          "val": 0.09621993127147767
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422390433000,
+          "val": 0.09358995195960222
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422390433000,
+          "val": 0.16062176165803108
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422390433000,
+          "val": 0.2
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422390433000,
+          "val": 0.12027491408934708
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422394033000,
+          "val": 0.09548359785160015
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422394033000,
+          "val": 0.19170984455958548
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422394033000,
+          "val": 0.1
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422394033000,
+          "val": 0.0859106529209622
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422397633000,
+          "val": 0.097471737051582
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422397633000,
+          "val": 0.14507772020725387
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422397633000,
+          "val": 0.3
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422397633000,
+          "val": 0.09278350515463918
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422401233000,
+          "val": 0.07041263337730422
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422401233000,
+          "val": 0.24870466321243523
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422401233000,
+          "val": 0.2
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422401233000,
+          "val": 0.07560137457044673
+        },
+        {
+          "col": "Advertisements",
+          "idx": 1422404833000,
+          "val": 0.063869916732497
+        },
+        {
+          "col": "Celebrities",
+          "idx": 1422404833000,
+          "val": 0.16062176165803108
+        },
+        {
+          "col": "Goal Chatter",
+          "idx": 1422404833000,
+          "val": 0.3
+        },
+        {
+          "col": "Team Chatter",
+          "idx": 1422404833000,
+          "val": 0.09278350515463918
+        }
+      ]
+    }
+  ],
+  "height": 500,
+  "legends": [
+    {
+      "fill": "color",
+      "offset": 0,
+      "properties": {},
+      "title": "Topic Modelling"
+    }
+  ],
+  "marks": [
+    {
+      "from": {
+        "data": "table",
+        "transform": [
+          {
+            "keys": [
+              "data.col"
+            ],
+            "type": "facet"
+          }
+        ]
+      },
+      "marks": [
+        {
+          "properties": {
+            "enter": {
+              "stroke": {
+                "field": "data.col",
+                "scale": "color"
+              },
+              "strokeWidth": {
+                "value": 2
+              },
+              "x": {
+                "field": "data.idx",
+                "scale": "x"
+              },
+              "y": {
+                "field": "data.val",
+                "scale": "y"
+              }
+            }
+          },
+          "type": "line"
+        }
+      ],
+      "type": "group"
+    }
+  ],
+  "padding": "auto",
+  "scales": [
+    {
+      "domain": {
+        "data": "table",
+        "field": "data.idx"
+      },
+      "name": "x",
+      "range": "width",
+      "type": "time"
+    },
+    {
+      "domain": {
+        "data": "table",
+        "field": "data.val"
+      },
+      "name": "y",
+      "nice": true,
+      "range": "height"
+    },
+    {
+      "domain": {
+        "data": "table",
+        "field": "data.col"
+      },
+      "name": "color",
+      "range": "category20",
+      "type": "ordinal"
+    }
+  ],
+  "width": 960
+}
